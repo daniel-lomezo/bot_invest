@@ -11,6 +11,8 @@ API = IQ_Option('daniel.ubletech@gmail.com', 'daniellomezo008090')
 API.connect()
 API.change_balance('PRACTICE')
 
+print('testando git')
+
 while True:
     if API.check_connect() == False:
         print('Falha de login')
